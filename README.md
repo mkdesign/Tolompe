@@ -1,5 +1,6 @@
 ##Memory Remains : Now a web-based version of our first software.
 
+*Tolompe was a phone book created by C(MS-DOS vresion) lang.
 
 ###Contributing
 
