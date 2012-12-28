@@ -30,19 +30,21 @@ div.main-page{
 	border-radius:5px;	
 }
 div.main-page div.left{
-	width:390px;
+	width:376px;
 	height:450px;
 	border:solid 1px red;
 	border-radius:4px;
 }
 div.main-page div.nipper{
-	width:16px;
+	width:43px;
 	height:450px;
 	outline:2px solid #60a;	
 	float:left;
+	background-image:url('../Images/nipper-place.jpg');
+	background-position:0px 46px;
 }
 div.main-page div.right{
-	width:390px;
+	width:376px;
 	height:450px;
 	border:solid 1px red;
 	border-radius:4px;
