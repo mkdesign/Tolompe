@@ -22,7 +22,7 @@
 
 		while( $row = mysql_fetch_array($res,MYSQL_ASSOC)){
 
-			echo "user $row[ID] : $row[Name]  $row[TELL] &lt; $row[Email] &gt; <br />";
+			echo "user $row[ID] : $row[Name] $row[TELL] &lt; $row[Email] &gt; <br />";
 		}
 
 		@mysql_close($dbcon);
