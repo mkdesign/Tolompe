@@ -1,0 +1,52 @@
+:lang(fa-IR) {
+	font-family	: 'Nazanin';
+	direction	: rtl;
+}
+body:lang(fa-IR){
+	text-align: right;
+}
+
+:lang(en-US) {
+	direction	: ltr;
+	font-family	: 'PT Sans Narrow', 'Helvetica Neue', Arial, sans-serif;
+}
+body:lang(en-US){
+	text-align: left;
+}
+/*** ***/
+div.container{
+	outline:red 1px solid;	
+}
+div.main-page{
+	border:solid black 3px;
+	width:800px;
+	height:450px;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	position:absolute;
+	margin:auto auto;
+	border-radius:5px;	
+}
+div.main-page div.left{
+	width:376px;
+	height:450px;
+	border:solid 1px red;
+	border-radius:4px;
+}
+div.main-page div.nipper{
+	width:43px;
+	height:450px;
+	outline:2px solid #60a;	
+	float:left;
+	background-image:url('../Images/nipper-place.jpg');
+	background-position:0px 46px;
+}
+div.main-page div.right{
+	width:376px;
+	height:450px;
+	border:solid 1px red;
+	border-radius:4px;
+	float:left !important;
+}
