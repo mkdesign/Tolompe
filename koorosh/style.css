@@ -32,12 +32,19 @@ div.main-page{
 div.main-page div.left{
 	width:390px;
 	height:450px;
-	outline:solid 1px red;
+	border:solid 1px red;
 	border-radius:4px;
+}
+div.main-page div.nipper{
+	width:16px;
+	height:450px;
+	outline:2px solid #60a;	
+	float:left;
 }
 div.main-page div.right{
 	width:390px;
 	height:450px;
-	outline:solid 1px red;
+	border:solid 1px red;
 	border-radius:4px;
+	float:left !important;
 }
